@@ -5,6 +5,7 @@ div {
     flex: 1;*/
     background-color: blue;
     flex: 1 1 0;
+    height: 40px;
 }
 #container {
     display: flex;
@@ -12,4 +13,5 @@ div {
 .row {
     display: flex;
     flex-direction: column;
+    flex: 1 1 0;
 }
