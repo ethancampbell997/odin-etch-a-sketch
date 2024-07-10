@@ -1,0 +1,15 @@
+div {
+    border: 2px solid red;
+    /*width: 20px;
+    height: 20px;
+    flex: 1;*/
+    background-color: blue;
+    flex: 1 1 0;
+}
+#container {
+    display: flex;
+}
+.row {
+    display: flex;
+    flex-direction: column;
+}
