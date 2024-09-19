@@ -4,8 +4,8 @@ div {
     height: 20px;
     flex: 1;
     background-color: blue;*/
-    flex: 1 1 0;
-    height: 40px;
+    flex: 1 1 auto;
+    height: 45px;
 }
 #container {
     display: flex;
@@ -13,8 +13,8 @@ div {
 .row {
     display: flex;
     flex-direction: column;
-    flex: 1 1 0;
-    border: 2px solid black;
+    flex: 1 1 auto;
+    border: 1px solid black;
 }
 .hovered {
     background-color: blue;
